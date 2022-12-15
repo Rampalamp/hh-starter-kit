@@ -4,6 +4,7 @@
   "version": "2.0.0",
   "description": "A repo for boilerplate code for testing, deploying, and shipping chainlink solidity code.",
   "scripts": {
+    "hh": "yarn hardhat",
     "compile": "hardhat compile",
     "test": "hardhat test test/unit/*.spec.js",
     "test-staging": "hardhat test test/staging/*.spec.js --network goerli",
